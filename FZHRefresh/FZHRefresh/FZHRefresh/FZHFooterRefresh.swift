@@ -9,14 +9,14 @@
 import UIKit
 
 class FZHFooterRefresh: FZHComponents {
-
+    
     override init(frame: CGRect) {
         super.init(frame: frame
         )
     }
     
     func footerFunc() -> Void {
-        print("aaaa")
+        
     }
     
     required init?(coder aDecoder: NSCoder) {

@@ -19,8 +19,9 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTableView()
-        tableView.fzhFooter.footerFunc()
-        
+        tableView.fzhHeader.headerViewRefresh { 
+            print("xxxxx")
+        }
     }
     
     func setupTableView() -> Void {
